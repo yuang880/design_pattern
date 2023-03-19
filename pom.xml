@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <groupId>com.zhangxd</groupId>
     <artifactId>design-pattern</artifactId>
     <packaging>pom</packaging>
@@ -28,6 +35,11 @@
         <module>design-7-01</module>
         <module>design-7-02</module>
         <module>design-8-02</module>
+        <module>design-9-00</module>
+        <module>design-9-01</module>
+        <module>design-9-02</module>
+        <module>design-10-0</module>
+        <module>design-10-01</module>
     </modules>
 
     <properties>
