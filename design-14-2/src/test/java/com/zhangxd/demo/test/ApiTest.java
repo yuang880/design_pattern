@@ -8,6 +8,9 @@ import com.zhangxd.demo.design.cuisine.impl.GuangDongCuisine;
 import com.zhangxd.demo.design.cuisine.impl.JiangSuCuisine;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ApiTest {
 
     @Test
@@ -24,6 +27,17 @@ public class ApiTest {
 
         // 下单
         xiaoEr.placeOrder();
+    }
+
+    @Test
+    public void test2(){
+
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        System.out.println(list.get(2));
     }
 
 }

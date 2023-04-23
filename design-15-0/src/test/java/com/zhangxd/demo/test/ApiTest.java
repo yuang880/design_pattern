@@ -1,16 +1,12 @@
-package org.itstack.demo.design.test;
+package com.zhangxd.demo.test;
 
-import org.itstack.demo.design.group.Employee;
-import org.itstack.demo.design.group.GroupStructure;
-import org.itstack.demo.design.group.Link;
-import org.itstack.demo.design.lang.Iterator;
+import com.zhangxd.demo.design.group.Employee;
+import com.zhangxd.demo.design.group.GroupStructure;
+import com.zhangxd.demo.design.group.Link;
+import com.zhangxd.demo.design.lang.Iterator;
 import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class ApiTest {
-
-    private Logger logger = LoggerFactory.getLogger(ApiTest.class);
 
     @Test
     public void test_iterator() {
@@ -36,7 +32,7 @@ public class ApiTest {
         Iterator<Employee> iterator = groupStructure.iterator();
         while (iterator.hasNext()) {
             Employee employee = iterator.next();
-            logger.info("{}，雇员 Id：{} Name：{}", employee.getDesc(), employee.getuId(), employee.getName());
+            System.out.println(employee.getDesc() + "，雇员 Id：" + employee.getUId() + "Name：" + employee.getName());
         }
 
     }

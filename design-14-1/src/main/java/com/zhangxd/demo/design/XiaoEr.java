@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class XiaoEr {
 
-    private Map<Integer, String> cuisineMap = new ConcurrentHashMap<Integer, String>();
+    private Map<Integer, String> cuisineMap = new ConcurrentHashMap<>();
 
     public void order(int cuisine) {
         // 广东（粤菜）
