@@ -48,6 +48,14 @@
         <module>design-14-1</module>
         <module>design-14-2</module>
         <module>design-15-0</module>
+        <module>design-16-2</module>
+        <module>design-17-0</module>
+        <module>design-18-0</module>
+        <module>design-18-1</module>
+        <module>design-18-2</module>
+        <module>design-19-0</module>
+        <module>design-19-1</module>
+        <module>design-19-2</module>
     </modules>
 
     <properties>
@@ -72,23 +80,17 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>jcl-over-slf4j</artifactId>
-            <version>1.7.5</version>
+            <version>1.7.26</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.0.9</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>slf4j-api</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-            </exclusions>
+            <version>1.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.3</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
